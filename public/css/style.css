@@ -1,0 +1,71 @@
+body{
+	margin:0px; background-color: #FFFFFF;
+	color: #142882;
+	font-family: "Lato",sans-serif;
+}
+
+.clear{clear: both;}
+b, p{font-size: 1.25em;}
+
+h2{
+	color: #142882;
+	font-family: "Lato",sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	margin: 10px 0;
+}
+
+nav li {list-style-type: none; font-size: 1.25em;}
+nav li a{
+	color: #142882;
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+}
+
+.menuLeft{
+	float:left;
+	width:50%;
+}
+.menuRight{
+	float: right;
+	width: 50%;
+}
+
+.ticketbar{
+	position: relative;
+	height:40px;
+	width: 100%;
+}
+
+#buyticket{
+position: absolute;
+right: 10px;
+
+	background-color: #e60000;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	margin-right: 10px;
+}
+
+.menuRight .adres{
+	color:red;	
+}
+
+.responseitem {
+	float: left;
+  background: #09F;
+  width: 31.333%;
+  margin:1%;
+  height:auto;
+  display: inline-block;
+}
+
+.margin{
+  	position:absolute; margin:1%;"
+}

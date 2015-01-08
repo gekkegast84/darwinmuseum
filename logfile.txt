@@ -1,0 +1,71 @@
+Hieronder ziet u de logingegevens:
+ 
+naam: admin tijd: 11/24/2014 06:19:34 pm  
+naam: verkoper tijd: 11/24/2014 06:20:14 pm  
+naam: manager tijd: 11/24/2014 06:20:39 pm  
+naam: manager tijd: 11/24/2014 06:20:53 pm  
+naam: verkoper tijd: 11/25/2014 07:32:53 am  
+naam: admin tijd: 11/25/2014 07:53:18 am  
+naam: manager tijd: 11/25/2014 07:55:14 am  
+naam: manager tijd: 11/25/2014 08:01:17 am  
+naam: manager tijd: 11/25/2014 08:03:26 am  
+naam:  tijd: 11/25/2014 08:05:20 am  
+naam:  tijd: 11/25/2014 08:05:27 am  
+naam: admin tijd: 11/25/2014 08:05:33 am  
+naam: verkoper tijd: 11/25/2014 08:48:19 am  
+naam: manager tijd: 11/25/2014 08:49:05 am  
+naam: manager tijd: 11/25/2014 08:55:27 am  
+naam: verkoper tijd: 11/25/2014 10:12:11 am  
+naam: manager tijd: 11/25/2014 10:13:59 am  
+naam: verkoper tijd: 11/25/2014 10:16:14 am  
+naam: manager tijd: 11/25/2014 11:24:36 am  
+naam: manager tijd: 11/26/2014 01:43:14 pm  
+naam: manager tijd: 11/26/2014 02:02:35 pm  
+naam: admin tijd: 11/27/2014 09:52:02 am  
+naam: admin tijd: 11/27/2014 10:12:16 am  
+naam: admin tijd: 11/27/2014 10:14:59 am  
+naam: admin tijd: 11/27/2014 10:52:10 am  
+naam: admin tijd: 11/27/2014 10:53:41 am  
+naam: admin tijd: 11/27/2014 11:00:03 am  
+naam: admin tijd: 11/27/2014 11:36:41 am  
+naam: admin tijd: 11/27/2014 12:17:08 pm  
+naam: admin tijd: 11/27/2014 12:19:05 pm  
+naam: verkoper tijd: 11/27/2014 12:22:32 pm  
+naam: admin tijd: 11/27/2014 12:23:18 pm  
+naam: admin tijd: 11/27/2014 12:23:40 pm  
+naam:  tijd: 11/27/2014 12:34:34 pm  
+naam:  tijd: 11/27/2014 12:36:01 pm  
+naam:  tijd: 11/27/2014 12:36:12 pm  
+naam:  tijd: 11/27/2014 12:36:22 pm  
+naam:  tijd: 11/27/2014 12:41:52 pm  
+naam:  tijd: 11/27/2014 12:41:58 pm  
+naam:  tijd: 11/27/2014 12:43:22 pm  
+naam:  tijd: 11/27/2014 12:43:49 pm  
+naam:  tijd: 11/27/2014 12:49:55 pm  
+naam: admin tijd: 11/27/2014 12:54:02 pm  
+naam: admin tijd: 11/27/2014 12:56:43 pm  
+naam: admin tijd: 11/27/2014 12:56:55 pm  
+naam:  tijd: 11/27/2014 01:03:37 pm  
+naam:  tijd: 11/27/2014 01:03:57 pm  
+naam:  tijd: 11/27/2014 01:04:33 pm  
+naam:  tijd: 11/27/2014 01:04:43 pm  
+naam: admin tijd: 11/27/2014 01:12:58 pm  
+naam: admin tijd: 11/27/2014 01:24:20 pm  
+naam: admin tijd: 11/27/2014 01:30:07 pm  
+naam: admin tijd: 11/27/2014 01:58:36 pm  
+naam: admin tijd: 11/27/2014 02:42:47 pm  
+naam: admin tijd: 11/27/2014 03:09:51 pm  
+naam: admin tijd: 11/27/2014 03:20:30 pm  
+naam: verkoper tijd: 11/27/2014 03:21:41 pm  
+naam: admin tijd: 11/27/2014 03:22:05 pm  
+naam: verkoper tijd: 11/27/2014 03:22:26 pm  
+naam: admin tijd: 11/27/2014 03:22:57 pm  
+naam: admin tijd: 11/28/2014 02:12:40 pm  
+naam: verkoper tijd: 11/28/2014 02:13:22 pm  
+naam: manager tijd: 11/28/2014 02:15:26 pm  
+naam: admin tijd: 01/06/2015 10:20:14 am  
+naam: admin tijd: 01/07/2015 05:14:08 pm  
+naam: manager tijd: 01/07/2015 05:28:06 pm  
+naam: verkoper tijd: 01/07/2015 05:31:09 pm  
+naam: verkoper tijd: 01/08/2015 10:47:12 am  
+naam: verkoper tijd: 01/08/2015 10:52:14 am  
