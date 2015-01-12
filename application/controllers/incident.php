@@ -21,16 +21,16 @@ class incident extends CI_Controller {
   function index(){
     $this->load->helper(array('form'));
 
-    $j = count($this->incidentmodel->getIncident());
-    for ($i=0; $i < $j; $i++){ 
-      $involved = $this->incidentmodel->getId($j);
+    $incidents = $this->incidentmodel->getIncident();
+    foreach ($incidents as $incident) {
+      $involved[] = $this->incidentmodel->giveInvolved($incident->id);
       $data['involved'] = $involved;
     }
+    $allUsers = $this->incidentmodel->getUser();
 
-    $data['user'] = $this->giveUsers;
-    $data['emergency'] = $this->giveEmergency($data['user']->involved_id);
-    $data['allUsers'] = $this->incidentmodel->getUser();
-    $data['incidents'] = $this->incidentmodel->getIncident();
+    $data['incidents'] = $incidents;
+    
+    $data['allUsers'] = $allUsers;
 
     $data['main_content'] = 'incidentView';
     $this->load->view('template', $data);
@@ -49,18 +49,11 @@ class incident extends CI_Controller {
     }
   }
 
-  function giveUsers(){
-    $i = 0;
-    foreach ($involved as $key => $value) {
-      $users[$i] = $this->incidentmodel->getNameById($value->involved_id)[0];
-      $i++;
-    }
-  }
-
   function giveEmergency($param){
-    foreach ($involved as $key => $value) {
-      return $emergency[$param] = $this->incidentmodel->getId($value->involved_id)[0];
+    foreach ($param as $key => $value) {
+      $emergency[] = $this->incidentmodel->getId($value->involved_id);
     }
+    return $emergency;
   }
 }
 

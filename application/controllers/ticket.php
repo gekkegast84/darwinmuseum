@@ -43,7 +43,7 @@ class ticket extends CI_Controller {
      
     $this->load->library('pdf');
     $pdf = $this->pdf->load();
-    //$pdf->SetFooter($_SERVER['HTTP_HOST'].'|{PAGENO}|'.date(DATE_RFC822)); // Add a footer for good measure <img src="https://davidsimpson.me/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley">
+    $pdf->SetFooter("Darwinmuseum");
     $pdf->WriteHTML($html); // write the HTML into the PDF
     $pdf->Output('ticket.pdf', 'I'); // save to file because we can
   }

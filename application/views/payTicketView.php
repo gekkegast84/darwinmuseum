@@ -4,7 +4,7 @@
 		<strong>Omschrijving: </strong><p>betaling <?= $priceInfo['1'] ?> kaartje</p><br/>
 		<strong>Bedrag: </strong><p>&euro; <?= $priceInfo['2'] ?>,-</p><br/>
 		<br/><br/>
-		<form method="POST" action="<?php BASE_URL(); ?>ticket/displayTicket">
+		<form method="POST" action="displayTicket">
 			Kies uw bank:
 			<select name='bank' class="form-control">
 				<option value='abn_amro'>ABN AMRO</option>

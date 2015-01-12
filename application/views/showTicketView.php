@@ -48,7 +48,7 @@
 	+31(0)30-2362362 <Br/>www.darwinmuseum.nl</small>
 </div>
 <div class='right'>
-	<img src='<?= base_url('artifact/artifact_'.$imgDay.'.jpg');?>'/>
+	<img alt="artifact a day" src='<?= base_url('artifact/artifact_'.$imgDay.'.jpg');?>'/>
 </div>
 </body>
 </html>

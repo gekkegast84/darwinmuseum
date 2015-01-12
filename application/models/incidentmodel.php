@@ -39,36 +39,21 @@ Class incidentmodel extends CI_Model{
 	function getIncident(){
 		$this->db->select('*');
 		$this->db->from('emergency');
+		$this->db->order_by('id', 'asc');
 
 		$query = $this->db->get();
 		return $query->result();		
 	}
 
-	function getNameById($user_id){
-			// $this->db->select("firstname, prefix, lastname, CONCAT(firstname, ' ', prefix, ' ', lastname) AS name", FALSE);
-
-		$this->db->select("*");
-		$this->db->from("user");
-		$this->db->where("id", $user_id);
-
+	function giveInvolved($id){
+		$this->db->select('emergency.id, user.firstname, user.prefix, user.lastname');    
+		$this->db->from('emergency');
+		$this->db->join('involved', 'involved.emergency_id = emergency.id');
+		$this->db->join('user', 'user.id = involved.involved_id');
+		$this->db->where('emergency.id', $id);
+		$this->db->order_by('emergency.id', 'desc');
 		$query = $this->db->get();
-		if($query->num_rows() > 0){
-			return $query->result();
-		}else{
-			return 0;
-		}
-	}
-
-   function getId($emergency_id){
-		$this->db->select('*');
-		$this->db->from('involved');
-		$this->db->where('emergency_id', $emergency_id);
-		$query = $this->db->get();
-		if($query->num_rows() > 0){
-			return $query->result();
-		}else{
-			return 0;
-		}
+		return $query->result();
 	}
 }
 ?>

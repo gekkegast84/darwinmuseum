@@ -14,23 +14,27 @@
 				</tr>
 			</thead>
 			<tbody>
-			<?php	
-			 foreach ($incidents as $key => $incident):
+			<?php
+			//var_dump($involved);
+			foreach ($incidents as $key => $incident):
+				$id = $incident->id;
+
 				echo "<tr>";
-				echo "<td>".$incident->id."</td>";
+				echo "<td>".$id."</td>";
 				echo "<td>";
-				$j = count($user);
-				for ($i=0; $i < $j; $i++) { 
-					echo $user[$i]->firstname." ";
-				}
-				echo"</td>";
+					$ids = $id - 1;
+					$count = count($involved[$ids]);
+					for($i=0; $i < $count; $i++): 
+						echo $involved[$ids][$i]->firstname."&nbsp;".$involved[$ids][$i]->prefix."&nbsp;".$involved[$ids][$i]->lastname."<br/>";
+					endfor;
+				echo "</td>";
 				echo "<td>".$incident->reported_by."</td>";
 				echo "<td>".$incident->dateofemergency."</td>";
 				echo "<td>".$incident->category."</td>";
 				echo "<td>".$incident->emergency_description."</td>";
 				echo "<td>".$incident->status."</td>";
 				echo "</tr>";
-				endforeach; ?>
+			endforeach; ?>
 			</tr>
 		</tbody>
 	</table>		
@@ -40,7 +44,7 @@
 	<?= form_open('incident/reportIncident'); ?>
 	<div class="form-group">
 		<label for="reported_by">gemeld door:</label>
-		<input type="text" value="<?= $getCurrentUser['username'] ?>" class="form-control" name="reported_by" readonly />
+		<input type="text" value="<?= $this->session->userdata['logged_in']['username'] ?>" class="form-control" name="reported_by" readonly />
 	</div>
 	<div class="form-group">	
 		<label for="reported_by">betrokkenen:</label>

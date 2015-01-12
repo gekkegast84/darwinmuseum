@@ -69,3 +69,4 @@ naam: manager tijd: 01/07/2015 05:28:06 pm
 naam: verkoper tijd: 01/07/2015 05:31:09 pm  
 naam: verkoper tijd: 01/08/2015 10:47:12 am  
 naam: verkoper tijd: 01/08/2015 10:52:14 am  
+naam: verkoper tijd: 01/12/2015 12:15:03 am  
